@@ -20,11 +20,11 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 
 Initially tried with two hidden layers with 80 and 30 neurons, both using the relu activation function. This gave me an accuarcy of 52.8% which didn't acheive the target model performance:
 
-![Initial](Resources/initial.png)
+![Initial](Resources/intitial.png)
 
 Then I tried reducing the buckets as well as removing columns that were almost completely one variable to hopefully reduce the noise and re-ran with the same model. This gave me an accuracy of 67.3%:
 
-![Initial](Resources/initial.png)
+![Initial](Resources/optimize1.png)
 
 I tried another by changing the activation to tanh which actually reduced the accuracy to 56.5%. For the third try I changed it back to relu but added a third hidden layer and added additional neurons to 100, 50, 30 neurons. Unfortunately, this reduced the accuracy again down to 52.9%
 
